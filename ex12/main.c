@@ -6,7 +6,7 @@
 /*   By: oadhesiv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 12:49:32 by oadhesiv          #+#    #+#             */
-/*   Updated: 2019/02/13 19:10:34 by oadhesiv         ###   ########.fr       */
+/*   Updated: 2019/02/13 21:57:49 by oadhesiv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int		main(void)
 	char	c_e[] = "dd";
 	char	c_f[] = "aa";
 	char	c_a_cmp[] = "aa";
+	char	c_g_cmp[] = "gg";
 
 	printf("data:\n");
 	elem_a = ft_create_elem(c_a);
@@ -48,6 +49,7 @@ int		main(void)
 	elem_e->next = elem_f;
 	print_list(&elem_a);
 	ft_list_remove_if(&elem_a, c_a_cmp, strcmp);
+	ft_list_remove_if(&elem_a, c_g_cmp, strcmp);
 	print_list(&elem_a);
 
 	printf("void void:\n");
