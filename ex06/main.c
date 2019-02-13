@@ -6,7 +6,7 @@
 /*   By: oadhesiv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 12:49:32 by oadhesiv          #+#    #+#             */
-/*   Updated: 2019/02/13 19:22:18 by oadhesiv         ###   ########.fr       */
+/*   Updated: 2019/02/13 21:45:02 by oadhesiv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ int		main(void)
 	t_list	*elem_b;
 	t_list	*elem_c;
 	t_list	*elem_d;
+	t_list	**void_void;
 	char	c_a[] = "a";
 	char	c_b[] = "b";
 	char	c_c[] = "c";
@@ -30,6 +31,11 @@ int		main(void)
 	print_list(&elem_d);
 	ft_list_clear(&elem_d);
 	print_list(&elem_d);
+
+	void_void = (void*)0;
+	print_list(void_void);
+	ft_list_clear(void_void);
+	print_list(void_void);
 
 	elem_a = ft_create_elem(c_a);
 	elem_b = ft_create_elem(c_b);
