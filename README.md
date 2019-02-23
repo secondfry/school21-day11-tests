@@ -22,8 +22,8 @@ Results
 11: OK.
 12: KO. Segmentation fault (Signal -11). Found the mistake. Tests probably do cover it now.
 13: OK.
-14: KO. My tests don't cover the entirety of the task.
-15: KO. My tests don't cover the entirety of the task and you probably should think about the subject little longer than you think.
-16: KO. My tests don't cover the entirety of the task.
-17: KO. Don't cheese it ;).
+14: KO. Tests are completely wrong. Read the task precisely.
+15: KO. Tests are completely wrong. Read the task precisely.
+16: KO. Tests are completely wrong. Read the task precisely.
+17: KO. Don't cheese it ;) or expect anti-cheese and act appropriately.
 ```
